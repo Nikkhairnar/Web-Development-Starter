@@ -5,12 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variables</title>
     <style>
+
+        :root{
+            --color: blue;   /*global variables*/
+            --seccolor:rgb(171, 29, 29);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
         .nav{
             background-color: aqua;
         }
 
+        ul{
+            display: flex;
+        }
+
+        ul li{
+            list-style: none;
+            padding: 34px;
+        }
+
+        ul li:first-child{
+            --color: rgb(9, 182, 141);   /*local variables*/
+            background-color: var(--color);
+        }
         .container{
-            background-color: rgb(40, 169, 169);
+            background-color: var(--seccolor);
         }
     </style>
 </head>
