@@ -9,6 +9,7 @@
         :root{
             --color: blue;   /*global variables*/
             --seccolor:rgb(171, 29, 29);
+            --defpad: 23px;
         }
         *{
             margin: 0;
@@ -26,11 +27,13 @@
         ul li{
             list-style: none;
             padding: 34px;
+            border: 12px solid var(--seccolor);
         }
 
         ul li:first-child{
             --color: rgb(9, 182, 141);   /*local variables*/
             background-color: var(--color);
+            
         }
         .container{
             background-color: var(--seccolor);
