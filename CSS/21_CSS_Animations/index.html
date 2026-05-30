@@ -21,15 +21,16 @@
             animation-timing-function: ease-in;
             animation-delay: 2s;
             animation-direction: alternate-reverse;
-            animation-play-state: paused;
+            animation-play-state: running;
             
         }
 
         @keyframes myanimation {
             from{
-                
+                background-color: red;
             }
             to{
+                background-color: yellow;
                 transform: translateX(1000px);
             }
         }
