@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS OBJECT FIT & POSITION</title>
+    <style>
+        .container{
+            height: 488px;
+            width: 466px;
+            border: 2px solid black;
+            background-color: azure;
+        }
+        img{
+            width: 466px;
+            height: 488px;
+            /*object-fit: contain;*/
+            object-fit: cover;
+            object-position: bottom right; /*top right,top left*/ 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://imgs.search.brave.com/BhhRpnMztWEQiHWoZdgPm0W6LuL9FOm8FacWkrn1rwA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNzY2hvb2xzLmNv/bS9odG1sL2ltYWdl/cy8xM19odG1sX2lt/YWdlcy5wbmc" alt="">
+    </div>
+</body>
+</html>
