@@ -15,3 +15,14 @@ console.log("His name is " + name + " and his friends name is "+ friend)
 
 console.log(`His name is ${name} and his friends name is ${friend}`)
 
+let b = "Omiee"
+console.log(b.toUpperCase())
+console.log(b.toLowerCase())
+console.log(b.length)
+console.log(b.slice(1,4))
+console.log(b.slice(1))
+
+console.log(b.replace("mi","77"))
+
+console.log(b.concat(a,"Jayesh","Pranav"))
+
