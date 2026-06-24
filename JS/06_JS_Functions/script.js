@@ -20,7 +20,7 @@ console.log("The sum of these numbers is: ", result1)
 console.log("The sum of these numbers is: ", result2)
 console.log("The sum of these numbers is: ", result3)
 
-
+//arrow func
 const func1 = (x)=>{
     console.log("I am an arrow function", x)
 }
