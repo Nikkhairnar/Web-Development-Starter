@@ -23,7 +23,13 @@ console.log(arr)
 console.log(delete arr[4])
 console.log(arr)
 
-//.concat is also method 
+//.concat , .sort is also method 
+
+let numbers = [1,2,3,4,5]
+numbers.splice(1,2)
+numbers.splice(1,3,222,333)
+console.log(numbers)
+
 
 
 
