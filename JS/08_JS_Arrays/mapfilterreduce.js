@@ -21,3 +21,11 @@ const greaterThanSeven = (e)=>{
 }
 
 console.log(newArr.filter(greaterThanSeven))
+
+let arr2 = [1,2,3,4,5,6]
+
+const redu = (a,b)=>{
+    return a*b
+
+}
+console.log(arr2.reduce(redu))
