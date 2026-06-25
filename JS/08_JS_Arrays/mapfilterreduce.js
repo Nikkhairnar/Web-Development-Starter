@@ -7,6 +7,17 @@ for (let index = 0; index < arr.length; index++) {
 
 console.log(newArr)
 
-let newarr = arr.map((e)=>{
+let newarr = arr.map((e,index,arr)=>{
     return e**2
 })
+
+console.log(newarr)
+
+const greaterThanSeven = (e)=>{
+    if(e>7){
+        return true
+    }
+    return false
+}
+
+console.log(newArr.filter(greaterThanSeven))
