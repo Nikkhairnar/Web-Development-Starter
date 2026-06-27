@@ -7,3 +7,12 @@ console.log(boxes)
 boxes[2].style.backgroundColor = "red"
 
 document.getElementById("red").style.backgroundColor = "red"
+
+
+document.querySelector(".box").style.backgroundColor = "green"
+
+//use for loop for queryselectorall
+document.querySelectorAll(".box").forEach(e=>{
+    e.style.backgroundColor = "green"
+})
+
