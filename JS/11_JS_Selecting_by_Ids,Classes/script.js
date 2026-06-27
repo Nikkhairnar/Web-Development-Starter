@@ -5,3 +5,5 @@ console.log(boxes)
 //can see at console tab in dev tools chrome
 
 boxes[2].style.backgroundColor = "red"
+
+document.getElementById("red").style.backgroundColor = "red"
