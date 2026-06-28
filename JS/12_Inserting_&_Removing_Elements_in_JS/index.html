@@ -10,11 +10,14 @@
         <div class="box" style="display: flex;" data-createdby="Nikk" data-conceptby="Me">Hey i am a box</div>
         <div class="box">Hey i am a box</div>
         <script>
-            let div = document.createElement("div");
-            div.innerHTML = "I have been inserted by<b> Nikk </b>"
-            div.setAttribute("class","created");
-            document.querySelector(".container").append(div)
-            document.querySelector(".container").before(div)
+            //let div = document.createElement("div");
+            //div.innerHTML = "I have been inserted by<b> Nikk </b>"
+            //div.setAttribute("class","created");
+            //document.querySelector(".container").append(div)
+            //document.querySelector(".container").before(div)
+
+            let cont = document.querySelector(".container")
+            cont.insertAdjacentElement("beforebegin", "<b> Heloooooo this is attribute insertion </b>")
         </script>
     </div>
 </body>
