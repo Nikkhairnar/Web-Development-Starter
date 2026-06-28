@@ -19,3 +19,5 @@ document.querySelector(".box").removeAttribute("style")
 
 document.designMode = "on" //we can change entire webpage temporarily by using this method in console tab chrome
 document.querySelector(".box").dataset
+document.querySelector(".box").classList
+document.querySelector(".box").className
