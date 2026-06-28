@@ -51,6 +51,10 @@
             e.stopPropagation()
             alert("Container was clicked")
         })
+
+        setInterval(() => {
+            document.querySelector(".childContainer").style.background = "red"
+        }, 3000);
     </script>
 </body>
 
