@@ -8,9 +8,12 @@ if (isNaN(a) || isNaN(b)){
 }
 let sum = parseInt(a) + parseInt(b)
 
-
 try {
     console.log("The sum is: ",sum*x)
 } catch (error) {
     console.log("Error aa gaya bhai")
+}
+
+finally{
+    console.log("files are being close and db connection is being closed")
 }
