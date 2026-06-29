@@ -7,4 +7,10 @@ if (isNaN(a) || isNaN(b)){
     throw SyntaxError("Sorry this is not a num") //can check more errors from browser
 }
 let sum = parseInt(a) + parseInt(b)
-console.log("The sum is: ",sum)
+
+
+try {
+    console.log("The sum is: ",sum*x)
+} catch (error) {
+    console.log("Error aa gaya bhai")
+}
